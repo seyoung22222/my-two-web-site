@@ -1,0 +1,51 @@
+body{
+margin:0;
+}
+a{
+color:black;
+text-align: center;
+text-decoration: none;
+line-height: 28px
+}
+h1 {
+font-size: 50px;
+text-align: center;
+border-bottom: 1.5px solid gray;
+padding: 15px;
+margin: 0px;
+}
+ol{
+font-size: 16px;
+text-decoration: underline;
+border-right: 1.5px solid gray;
+width: 165px;
+margin: 0;
+padding-top: 10px;
+}
+h2 {
+font-size: 30px;
+}
+h5 {
+font-size: 15px;
+}
+ul{
+font-size: 20px;
+}
+#글{
+margin-left: 30px;
+}
+#목차{
+display: grid;
+grid-template-columns: 210px 1fr;
+}
+@media(max-width: 600px){
+#목차{
+display: block;
+}
+ol{
+border-right: none;
+}
+h1 {
+border-bottom: none;
+}
+
